@@ -1,0 +1,146 @@
+.container{
+    width: 75%;
+    height: 100%;
+}
+
+
+.header{
+    display: flex;
+    height: 150px;
+    background-color: #030303;
+    width: 100%;
+    font-size: 22px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+
+.header-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    align-items:center;
+    gap:25px;
+}
+
+.header-logo-title{
+    font-size: 26px;
+    font-family: "Forum", serif;
+    cursor:default;
+}
+
+.header-links{
+    display: flex;
+    font-weight: 200;
+    gap: 27px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-link > a:hover{
+    cursor: pointer;
+    color: #9D8665;
+    transition: 0.3s;
+}
+
+/* Section Slider */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color:#030303;
+    height: 750px;
+}
+
+
+.slider-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./assets/back.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.slider-box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    color: white;
+}
+
+.slider-box-title{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: "Forum", serif;
+    max-width: 593px;
+    margin-bottom: 25px;
+    font-family: Forum;
+    line-height: 90px;
+    letter-spacing: 5px;
+}
+
+.slider-box-description{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-bottom: 75px;
+}
+
+.slider-box-button{
+    width: 360px;
+    height: 75px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#710707;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.slider-box-button:hover{
+    background-color: #9D8665;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.slider-control{
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 120px;
+    width: 600px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+
+}
+
+.slider-active-box{
+    display: flex;
+    gap: 12.5px;
+}
+
+.slider-active-box_child{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+}
+
+.slider-active-box_child:first-child{
+    background-color: #D2B183;
+}
