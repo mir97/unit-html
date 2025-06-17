@@ -144,3 +144,73 @@
 .slider-active-box_child:first-child{
     background-color: #D2B183;
 }
+
+
+
+.vitrual-tour{
+    display: flex;
+    justify-content: center;
+    margin: 75px 0 75px 0;
+}
+
+.vitrual-tour-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    height: 1116px;
+}
+
+.vitrual-tour-header{
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-family: "Forum", serif;
+    text-transform: uppercase;
+    color:#9D8665;
+    border-bottom: 3px solid #710707;
+}
+
+.virtual-tour-item{
+    display:flex;
+    flex-direction: column;
+    max-height: 285px;
+    max-width: 440px;
+    gap: 10px;
+}
+
+.vitrual-tour-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100%;
+    justify-content: space-;
+}
+
+.virtual-tour-item-title{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    border-bottom: 2px solid #710707;
+}
+
+.virtual-tour-item-img{
+    margin-bottom: 15px;
+}
+
+.virtual-tour-item-location{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.virtual-tour-item-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 100%;
+}
